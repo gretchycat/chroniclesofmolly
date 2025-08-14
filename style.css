@@ -1,0 +1,76 @@
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 { font-size: 2em; border-bottom: 1px solid #444; padding-bottom: 0.3em; }
+h2 { font-size: 1.5em; border-bottom: 1px solid #333; padding-bottom: 0.3em; }
+h3 { font-size: 1.25em; }
+h4, h5, h6 { font-size: 1.1em; }
+
+/* Paragraphs */
+p {
+  margin: 1em 0;
+  text-indent: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 3px solid #555;
+  font-style: italic;
+}
+
+/* Lists with hanging indent */
+ul, ol {
+  margin: 1em 0 1em 2em;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5em 0;
+  padding-left: 0.5em;
+  text-indent: -0.5em;
+}
+
+/* Code blocks and inline code */
+pre {
+  padding: 1em;
+  overflow: auto;
+  border-radius: 6px;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: Menlo, Consolas, monospace;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2em 0;
+}
+
+/* Tables (if you use them) */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}

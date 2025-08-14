@@ -1,0 +1,50 @@
+aspect_ratio: 6:9
+output_size: [1800, 2700]
+
+background:
+  texture: "basketball.png"
+  color: "#14145a"
+  alpha: 1.0
+  mode: "tile"
+
+image:
+  - file: "ethica_icon.svg"
+    size: [240, 240]
+    position: [0.08, 0.92]
+    color: "#eedd99"
+    texture: "bright-squares.png"
+    texture_alpha: 1.0
+    texture_mode: "tile"
+
+text:
+  - content: |
+      About the Book
+
+      The Nation of Ethica is a vision of a future grounded not in borders or tradition,
+      but in universal ethics. In these pages, you'll find a call to imagine a society
+      rooted in consent, transparency, non-harm, and the sacredness of thought.
+      This book is both a manifesto and an invitation to build together a world in which
+      every sentient being is valued, agency is honored, and the work of justice and care
+      never ends.
+    font_face: "Signals.ttf"
+    font_color: "#eedd99"
+    font_size: 70
+    box: [200, 350, 1400, 900]   # x, y, width, height
+    wrap: true
+    justify: true
+    texture: "bright-squares.png"
+    texture_alpha: 0.7
+    texture_mode: "tile"
+
+  - content: |
+      “Ethica is not just a society—it is a living practice.”
+    font_face: "Signals.ttf"
+    font_color: "#eedd99"
+    font_size: 70
+    position: [0.5, 0.78]
+    texture: "bright-squares.png"
+    texture_alpha: 0.8
+    texture_mode: "tile"
+    angle: 0
+
+output: "back_cover.png"

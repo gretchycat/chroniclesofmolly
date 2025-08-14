@@ -1,0 +1,50 @@
+# cover_config.yaml
+
+aspect_ratio: 6:9
+output_size: [1800, 2700]        # pixels
+
+background:
+  texture: "basketball.png"      # can be PNG or JPEG
+  color: "#14145a"               # tint color (optional, hex or rgba)
+  alpha: 1.0                     # blending alpha
+  mode: "tile"                   # tile, fill, stretch
+
+image:
+  - file: "ethica_icon.svg"       # or PNG/JPEG
+    size: [1200, 1200]            # width, height in px
+    position: [0.5, 0.33]         # (x, y) as ratio of width/height (0.5 = centered)
+    color: "#eedd99"
+    texture: "bright-squares.png" # can be PNG or JPEG
+    texture_alpha: 1.0            # blending alpha for texture (if needed)
+    texture_mode: "tile"          # tile, fill, stretch
+
+text:
+  - content: "The Nation of Ethica"
+    font_face: "Signals.ttf"
+    font_color: "#eedd99"
+    font_size: 160
+    position: [0.5, 0.60]
+    texture: "bright-squares.png"
+    texture_alpha: 1.0
+    texture_mode: "tile"
+
+  - content: "A Manifesto for Ethical Living"
+    font_face: "Signals.ttf"
+    font_color: "#eedd99"
+    font_size: 100
+    position: [0.5, 0.70]
+    texture: "bright-squares.png"
+    texture_alpha: 1.0
+    texture_mode: "tile"
+
+  - content: "Gretchen Maculo"
+    font_face: "Signals.ttf"
+    font_color: "#eedd99"
+    font_size: 80
+    position: [0.5, 0.78]
+    texture: "bright-squares.png"
+    texture_alpha: 1.0
+    texture_mode: "tile"
+
+output: "cover.png"
+
